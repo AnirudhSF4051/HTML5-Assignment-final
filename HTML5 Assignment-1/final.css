@@ -1,0 +1,87 @@
+*
+{
+    font-family: 'Roboto',sans-serif;
+}
+
+.main
+{
+    width: 500px;
+    height: 600px;
+    padding-top: 15px;
+    box-shadow: 10px 10px #d3d3d3;
+    background-color: #45b6fe;  
+}
+.details
+{
+    width:400px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 25px;
+    padding-top: 10px;
+    background-color: white;
+}
+.contact
+{
+   margin-left: 25px;
+   color: orange;
+   margin-top: 40px; 
+   
+   font-weight: lighter;
+}
+h2{
+    margin-top: 40px;
+}
+.style
+{
+    color: gray;
+}
+.name 
+{
+    border-radius: 8px;
+    height: 25px;
+    width: 300px;
+}
+.email 
+{
+    border-radius: 8px;
+    height: 25px;
+    width: 300px;
+    margin-top: 15px;
+}
+.phone
+{
+    border-radius: 8px;
+    height: 25px;
+    width: 300px;
+    margin-top: 15px;
+}
+.website
+{
+    border-radius: 8px;
+    height: 25px;
+    width: 300px;
+    margin-top: 15px;
+}
+.description
+{
+    border-radius: 8px;
+    height: 85px;
+    width: 300px;
+    margin-top: 15px;
+}
+.submit
+{
+    border-radius: 8px;
+    
+    height: 30px;
+    width: 310px;
+    margin-top: 15px;
+    color:white;
+    border-color:#45b6fe ;   
+    background-color:#45b6fe ;
+}
+.received
+{
+    margin-left: 20px;
+    color:gray;
+}

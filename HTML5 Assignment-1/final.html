@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="final.css">
+    <script src="final.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>HTML 5 Assignment-1</title>
+</head>
+<body>
+    <div class="main">
+        <div class="details">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <h5 class="style">Contact Us today, and get a reply within 24 hours!</h5>
+                <form action="result.html">
+                <input type="text" placeholder="Enter your name" required  class="name" id="name" pattern="[A-Za-z A-Za-z]{3,}" />
+                <input type="email" placeholder="Enter your Email Address" required  class="email" id="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                <input type="tel" placeholder="Enter your Phone#"  required  class="phone" id="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}"/>
+                <input type="url" placeholder="Enter your Web Site"  required  class="website" id="website" />
+                <input type="name" placeholder="Enter Your Message" class="description" id="description" maxlength="140"/>
+                <input type="submit" value="Submit" class="submit" onclick="store()" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
